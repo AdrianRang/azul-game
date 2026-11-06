@@ -37,20 +37,20 @@ The game state is a json file containing all the game and player data in the fol
     "availablePlates": [
       {
         "blue": 0,
-				"yellow": 1,
-				"red": 2,
-				"black": 0,
-				"white": 0,
+	"yellow": 1,
+	"red": 2,
+	"black": 0,
+	"white": 0,
       },
       // ...
     ],
     // The discarted tiles
     "discardPile": {
       "blue": 2,
-			"yellow": 1,
-			"red": 2,
-			"black": 0,
-			"white": 0,
+	"yellow": 1,
+	"red": 2,
+	"black": 0,
+	"white": 0,
       "penaltyTaken": false,
     }
   },
