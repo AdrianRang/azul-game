@@ -83,6 +83,7 @@ The game state is a json file containing all the game and player data in the fol
 A bot should output a move that is also a JSON File in this format:
 ```json
 {
+  "id" = 0,
   "from": 0 // plate with index 0, -1 for bin
   "color": "green",
   // To what row of the prepGrid and how many
