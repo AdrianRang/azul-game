@@ -1,0 +1,30 @@
+{
+  "gameState": {
+    "availablePlates": [
+      {"blue":1,"yellow":0,"red":1,"black":0,"white":2},
+      {"blue":1,"yellow":1,"red":1,"black":0,"white":1},
+      {"blue":0,"yellow":1,"red":2,"black":1,"white":0},
+      {"blue":2,"yellow":0,"red":1,"black":0,"white":1},
+      {"blue":0,"yellow":1,"red":2,"black":1,"white":0},
+      {"blue":1,"yellow":0,"red":1,"black":2,"white":0},
+      {"blue":0,"yellow":0,"red":2,"black":2,"white":0}
+    ],
+    "discardPile": {
+      "penaltyTaken":false
+    }
+  },
+  "playerStates": [
+    {
+      "playerId":0,
+      "points":0,
+      "scoreGrid": ["00000","00000","00000","00000","00000"],
+      "prepGrid":[{},{},{},{},{}]
+    },
+    {
+      "playerId":1,
+      "points":0,
+      "scoreGrid":["00000","00000","00000","00000","00000"],
+      "prepGrid":[{},{},{},{},{}]
+    }
+  ]
+}
